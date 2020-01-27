@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34CA94F523DE9866006FB8A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CA94F423DE9866006FB8A7 /* AppDelegate.swift */; };
+		34CA94F723DE9866006FB8A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CA94F623DE9866006FB8A7 /* SceneDelegate.swift */; };
+		34CA94F923DE9866006FB8A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CA94F823DE9866006FB8A7 /* ViewController.swift */; };
+		34CA94FC23DE9866006FB8A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CA94FA23DE9866006FB8A7 /* Main.storyboard */; };
+		34CA94FF23DE9866006FB8A7 /* FitnessFrenzy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34CA94FD23DE9866006FB8A7 /* FitnessFrenzy.xcdatamodeld */; };
+		34CA950123DE986F006FB8A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CA950023DE986F006FB8A7 /* Assets.xcassets */; };
+		34CA950423DE986F006FB8A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CA950223DE986F006FB8A7 /* LaunchScreen.storyboard */; };
+		34CA950F23DE9870006FB8A7 /* FitnessFrenzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CA950E23DE9870006FB8A7 /* FitnessFrenzyTests.swift */; };
+		34CA951A23DE9870006FB8A7 /* FitnessFrenzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CA951923DE9870006FB8A7 /* FitnessFrenzyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34CA950B23DE9870006FB8A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CA94E923DE9866006FB8A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CA94F023DE9866006FB8A7;
+			remoteInfo = FitnessFrenzy;
+		};
+		34CA951623DE9870006FB8A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CA94E923DE9866006FB8A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CA94F023DE9866006FB8A7;
+			remoteInfo = FitnessFrenzy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34CA94F123DE9866006FB8A7 /* FitnessFrenzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessFrenzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CA94F423DE9866006FB8A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34CA94F623DE9866006FB8A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34CA94F823DE9866006FB8A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34CA94FB23DE9866006FB8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34CA94FE23DE9866006FB8A7 /* FitnessFrenzy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessFrenzy.xcdatamodel; sourceTree = "<group>"; };
+		34CA950023DE986F006FB8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34CA950323DE986F006FB8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34CA950523DE986F006FB8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CA950A23DE9870006FB8A7 /* FitnessFrenzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessFrenzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CA950E23DE9870006FB8A7 /* FitnessFrenzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessFrenzyTests.swift; sourceTree = "<group>"; };
+		34CA951023DE9870006FB8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CA951523DE9870006FB8A7 /* FitnessFrenzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessFrenzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CA951923DE9870006FB8A7 /* FitnessFrenzyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessFrenzyUITests.swift; sourceTree = "<group>"; };
+		34CA951B23DE9870006FB8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CA94EE23DE9866006FB8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA950723DE9870006FB8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA951223DE9870006FB8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34CA94E823DE9866006FB8A7 = {
+			isa = PBXGroup;
+			children = (
+				34CA94F323DE9866006FB8A7 /* FitnessFrenzy */,
+				34CA950D23DE9870006FB8A7 /* FitnessFrenzyTests */,
+				34CA951823DE9870006FB8A7 /* FitnessFrenzyUITests */,
+				34CA94F223DE9866006FB8A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34CA94F223DE9866006FB8A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CA94F123DE9866006FB8A7 /* FitnessFrenzy.app */,
+				34CA950A23DE9870006FB8A7 /* FitnessFrenzyTests.xctest */,
+				34CA951523DE9870006FB8A7 /* FitnessFrenzyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CA94F323DE9866006FB8A7 /* FitnessFrenzy */ = {
+			isa = PBXGroup;
+			children = (
+				34CA94F423DE9866006FB8A7 /* AppDelegate.swift */,
+				34CA94F623DE9866006FB8A7 /* SceneDelegate.swift */,
+				34CA94F823DE9866006FB8A7 /* ViewController.swift */,
+				34CA94FA23DE9866006FB8A7 /* Main.storyboard */,
+				34CA950023DE986F006FB8A7 /* Assets.xcassets */,
+				34CA950223DE986F006FB8A7 /* LaunchScreen.storyboard */,
+				34CA950523DE986F006FB8A7 /* Info.plist */,
+				34CA94FD23DE9866006FB8A7 /* FitnessFrenzy.xcdatamodeld */,
+			);
+			path = FitnessFrenzy;
+			sourceTree = "<group>";
+		};
+		34CA950D23DE9870006FB8A7 /* FitnessFrenzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				34CA950E23DE9870006FB8A7 /* FitnessFrenzyTests.swift */,
+				34CA951023DE9870006FB8A7 /* Info.plist */,
+			);
+			path = FitnessFrenzyTests;
+			sourceTree = "<group>";
+		};
+		34CA951823DE9870006FB8A7 /* FitnessFrenzyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34CA951923DE9870006FB8A7 /* FitnessFrenzyUITests.swift */,
+				34CA951B23DE9870006FB8A7 /* Info.plist */,
+			);
+			path = FitnessFrenzyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CA94F023DE9866006FB8A7 /* FitnessFrenzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CA951E23DE9870006FB8A7 /* Build configuration list for PBXNativeTarget "FitnessFrenzy" */;
+			buildPhases = (
+				34CA94ED23DE9866006FB8A7 /* Sources */,
+				34CA94EE23DE9866006FB8A7 /* Frameworks */,
+				34CA94EF23DE9866006FB8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessFrenzy;
+			productName = FitnessFrenzy;
+			productReference = 34CA94F123DE9866006FB8A7 /* FitnessFrenzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34CA950923DE9870006FB8A7 /* FitnessFrenzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CA952123DE9870006FB8A7 /* Build configuration list for PBXNativeTarget "FitnessFrenzyTests" */;
+			buildPhases = (
+				34CA950623DE9870006FB8A7 /* Sources */,
+				34CA950723DE9870006FB8A7 /* Frameworks */,
+				34CA950823DE9870006FB8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CA950C23DE9870006FB8A7 /* PBXTargetDependency */,
+			);
+			name = FitnessFrenzyTests;
+			productName = FitnessFrenzyTests;
+			productReference = 34CA950A23DE9870006FB8A7 /* FitnessFrenzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34CA951423DE9870006FB8A7 /* FitnessFrenzyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CA952423DE9870006FB8A7 /* Build configuration list for PBXNativeTarget "FitnessFrenzyUITests" */;
+			buildPhases = (
+				34CA951123DE9870006FB8A7 /* Sources */,
+				34CA951223DE9870006FB8A7 /* Frameworks */,
+				34CA951323DE9870006FB8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CA951723DE9870006FB8A7 /* PBXTargetDependency */,
+			);
+			name = FitnessFrenzyUITests;
+			productName = FitnessFrenzyUITests;
+			productReference = 34CA951523DE9870006FB8A7 /* FitnessFrenzyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CA94E923DE9866006FB8A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MBennett;
+				TargetAttributes = {
+					34CA94F023DE9866006FB8A7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					34CA950923DE9870006FB8A7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 34CA94F023DE9866006FB8A7;
+					};
+					34CA951423DE9870006FB8A7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 34CA94F023DE9866006FB8A7;
+					};
+				};
+			};
+			buildConfigurationList = 34CA94EC23DE9866006FB8A7 /* Build configuration list for PBXProject "FitnessFrenzy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34CA94E823DE9866006FB8A7;
+			productRefGroup = 34CA94F223DE9866006FB8A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CA94F023DE9866006FB8A7 /* FitnessFrenzy */,
+				34CA950923DE9870006FB8A7 /* FitnessFrenzyTests */,
+				34CA951423DE9870006FB8A7 /* FitnessFrenzyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CA94EF23DE9866006FB8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA950423DE986F006FB8A7 /* LaunchScreen.storyboard in Resources */,
+				34CA950123DE986F006FB8A7 /* Assets.xcassets in Resources */,
+				34CA94FC23DE9866006FB8A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA950823DE9870006FB8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA951323DE9870006FB8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CA94ED23DE9866006FB8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA94FF23DE9866006FB8A7 /* FitnessFrenzy.xcdatamodeld in Sources */,
+				34CA94F923DE9866006FB8A7 /* ViewController.swift in Sources */,
+				34CA94F523DE9866006FB8A7 /* AppDelegate.swift in Sources */,
+				34CA94F723DE9866006FB8A7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA950623DE9870006FB8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA950F23DE9870006FB8A7 /* FitnessFrenzyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CA951123DE9870006FB8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA951A23DE9870006FB8A7 /* FitnessFrenzyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34CA950C23DE9870006FB8A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CA94F023DE9866006FB8A7 /* FitnessFrenzy */;
+			targetProxy = 34CA950B23DE9870006FB8A7 /* PBXContainerItemProxy */;
+		};
+		34CA951723DE9870006FB8A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CA94F023DE9866006FB8A7 /* FitnessFrenzy */;
+			targetProxy = 34CA951623DE9870006FB8A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34CA94FA23DE9866006FB8A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CA94FB23DE9866006FB8A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34CA950223DE986F006FB8A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CA950323DE986F006FB8A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34CA951C23DE9870006FB8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34CA951D23DE9870006FB8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34CA951F23DE9870006FB8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ9YPH3K4W;
+				INFOPLIST_FILE = FitnessFrenzy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MBennett.FitnessFrenzy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34CA952023DE9870006FB8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ9YPH3K4W;
+				INFOPLIST_FILE = FitnessFrenzy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MBennett.FitnessFrenzy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34CA952223DE9870006FB8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ9YPH3K4W;
+				INFOPLIST_FILE = FitnessFrenzyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MBennett.FitnessFrenzyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessFrenzy.app/FitnessFrenzy";
+			};
+			name = Debug;
+		};
+		34CA952323DE9870006FB8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ9YPH3K4W;
+				INFOPLIST_FILE = FitnessFrenzyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MBennett.FitnessFrenzyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessFrenzy.app/FitnessFrenzy";
+			};
+			name = Release;
+		};
+		34CA952523DE9870006FB8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ9YPH3K4W;
+				INFOPLIST_FILE = FitnessFrenzyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MBennett.FitnessFrenzyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessFrenzy;
+			};
+			name = Debug;
+		};
+		34CA952623DE9870006FB8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ9YPH3K4W;
+				INFOPLIST_FILE = FitnessFrenzyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MBennett.FitnessFrenzyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessFrenzy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CA94EC23DE9866006FB8A7 /* Build configuration list for PBXProject "FitnessFrenzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CA951C23DE9870006FB8A7 /* Debug */,
+				34CA951D23DE9870006FB8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CA951E23DE9870006FB8A7 /* Build configuration list for PBXNativeTarget "FitnessFrenzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CA951F23DE9870006FB8A7 /* Debug */,
+				34CA952023DE9870006FB8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CA952123DE9870006FB8A7 /* Build configuration list for PBXNativeTarget "FitnessFrenzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CA952223DE9870006FB8A7 /* Debug */,
+				34CA952323DE9870006FB8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CA952423DE9870006FB8A7 /* Build configuration list for PBXNativeTarget "FitnessFrenzyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CA952523DE9870006FB8A7 /* Debug */,
+				34CA952623DE9870006FB8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34CA94FD23DE9866006FB8A7 /* FitnessFrenzy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34CA94FE23DE9866006FB8A7 /* FitnessFrenzy.xcdatamodel */,
+			);
+			currentVersion = 34CA94FE23DE9866006FB8A7 /* FitnessFrenzy.xcdatamodel */;
+			path = FitnessFrenzy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34CA94E923DE9866006FB8A7 /* Project object */;
+}
